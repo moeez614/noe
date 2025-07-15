@@ -1,0 +1,53 @@
+.{
+    padding: 0;
+    margin: 0;
+    font-family: "Special Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header h3{
+    padding: 10px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+#input{
+    padding: 10px;
+    margin: 5px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+#btn{
+    padding: 10px;
+    margin: 5px;
+    background-color: green;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+.foot{
+    position: absolute;
+    bottom: -5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+.foot span a{
+    text-decoration: none;
+    color: red;
+}
