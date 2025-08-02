@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: "Special Gothic", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
 }
 
@@ -50,4 +50,5 @@ header h3{
 .foot span a{
     text-decoration: none;
     color: red;
+
 }
